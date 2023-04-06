@@ -12,7 +12,7 @@ const Search = (props: Props) => {
     >
         <div className='flex flex-row items-center justify-between'>
             <div className='text-sm font-semibold px-6'>
-                Anywhere
+                Any Where
             </div>
             <div className="hidden sm:block text-sm font-semibold px-6 border-x-[1px] flex-1 text-center">
                 Any Week
