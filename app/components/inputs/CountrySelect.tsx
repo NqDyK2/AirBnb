@@ -11,12 +11,12 @@ export type CountrySelectValue = {
     value: string;
 }
 
-interface CountruSelectProps {
+interface CountrySelectProps {
     value?: CountrySelectValue;
     onChange: (value: CountrySelectValue) => void;
 }
 
-const CountrySelect: React.FC<CountruSelectProps> = ({ value, onChange }) => {
+const CountrySelect: React.FC<CountrySelectProps> = ({ value, onChange }) => {
     const { getAll } = useCountries();
     return (
         <div>
